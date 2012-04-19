@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="90ba4879-b152-422e-b383-8d08b36f0b1f" name="acer@ACER-PC 2012-04-19 18:17:51" runUser="acer-PC\acer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="65a7167f-bf30-46ce-955d-23f88e2d418d">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="acer_ACER-PC 2012-04-19 18_17_51">
+      <DeploymentItem filename="E:\学习\C++实验\实验5\Bowling\Bowling\bin\Debug\Bowling.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T18:17:51.9111473+08:00" queuing="2012-04-19T18:17:54.6643048+08:00" start="2012-04-19T18:17:54.7593102+08:00" finish="2012-04-19T18:17:55.8713738+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestThrowOneStrike" storage="e:\学习\c++实验\实验5\bowling\bowlingtest\bin\debug\bowlingtest.dll" id="fa726839-821c-7e33-da82-d2ee615c271d">
+      <Execution id="fa3fc82c-7d29-4214-864a-6a56da53f308" />
+      <TestMethod codeBase="E:/学习/C++实验/实验5/Bowling/BowlingTest/bin/Debug/BowlingTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingTest.ProgramTest, BowlingTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestThrowOneStrike" />
+    </UnitTest>
+    <UnitTest name="FirstThrow" storage="e:\学习\c++实验\实验5\bowling\bowlingtest\bin\debug\bowlingtest.dll" id="5680f330-5fa0-86d8-8f0d-60938c342ec7">
+      <Execution id="990b613b-21bd-44c3-b2f0-d2747f488c0b" />
+      <TestMethod codeBase="E:/学习/C++实验/实验5/Bowling/BowlingTest/bin/Debug/BowlingTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingTest.ProgramTest, BowlingTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FirstThrow" />
+    </UnitTest>
+    <UnitTest name="TestThrowallone" storage="e:\学习\c++实验\实验5\bowling\bowlingtest\bin\debug\bowlingtest.dll" id="fab8e37f-65f7-25c6-3bb8-0039be8dcb71">
+      <Execution id="0a19a86d-50b7-4eb4-b11a-d2d928dad4b9" />
+      <TestMethod codeBase="E:/学习/C++实验/实验5/Bowling/BowlingTest/bin/Debug/BowlingTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingTest.ProgramTest, BowlingTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestThrowallone" />
+    </UnitTest>
+    <UnitTest name="TestThrowallzore" storage="e:\学习\c++实验\实验5\bowling\bowlingtest\bin\debug\bowlingtest.dll" id="4f6e1e1f-a721-8ead-2571-50fbc696d94a">
+      <Execution id="7c2d3adf-28ab-4faa-b949-f27ee0ac4ea2" />
+      <TestMethod codeBase="E:/学习/C++实验/实验5/Bowling/BowlingTest/bin/Debug/BowlingTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingTest.ProgramTest, BowlingTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestThrowallzore" />
+    </UnitTest>
+    <UnitTest name="TestThrowOneSpare" storage="e:\学习\c++实验\实验5\bowling\bowlingtest\bin\debug\bowlingtest.dll" id="091c8369-396c-6204-014d-7334c283dae1">
+      <Execution id="25c36903-efad-4048-b5f9-b582fd4c3889" />
+      <TestMethod codeBase="E:/学习/C++实验/实验5/Bowling/BowlingTest/bin/Debug/BowlingTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BowlingTest.ProgramTest, BowlingTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestThrowOneSpare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5680f330-5fa0-86d8-8f0d-60938c342ec7" executionId="990b613b-21bd-44c3-b2f0-d2747f488c0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f6e1e1f-a721-8ead-2571-50fbc696d94a" executionId="7c2d3adf-28ab-4faa-b949-f27ee0ac4ea2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fab8e37f-65f7-25c6-3bb8-0039be8dcb71" executionId="0a19a86d-50b7-4eb4-b11a-d2d928dad4b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="091c8369-396c-6204-014d-7334c283dae1" executionId="25c36903-efad-4048-b5f9-b582fd4c3889" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa726839-821c-7e33-da82-d2ee615c271d" executionId="fa3fc82c-7d29-4214-864a-6a56da53f308" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="990b613b-21bd-44c3-b2f0-d2747f488c0b" testId="5680f330-5fa0-86d8-8f0d-60938c342ec7" testName="FirstThrow" computerName="ACER-PC" duration="00:00:00.0187573" startTime="2012-04-19T18:17:54.8173135+08:00" endTime="2012-04-19T18:17:55.7273656+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="990b613b-21bd-44c3-b2f0-d2747f488c0b">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c2d3adf-28ab-4faa-b949-f27ee0ac4ea2" testId="4f6e1e1f-a721-8ead-2571-50fbc696d94a" testName="TestThrowallzore" computerName="ACER-PC" duration="00:00:00.0010451" startTime="2012-04-19T18:17:55.7443665+08:00" endTime="2012-04-19T18:17:55.7583673+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c2d3adf-28ab-4faa-b949-f27ee0ac4ea2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a19a86d-50b7-4eb4-b11a-d2d928dad4b9" testId="fab8e37f-65f7-25c6-3bb8-0039be8dcb71" testName="TestThrowallone" computerName="ACER-PC" duration="00:00:00.0002525" startTime="2012-04-19T18:17:55.7673678+08:00" endTime="2012-04-19T18:17:55.7753683+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a19a86d-50b7-4eb4-b11a-d2d928dad4b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="25c36903-efad-4048-b5f9-b582fd4c3889" testId="091c8369-396c-6204-014d-7334c283dae1" testName="TestThrowOneSpare" computerName="ACER-PC" duration="00:00:00.0003383" startTime="2012-04-19T18:17:55.7813686+08:00" endTime="2012-04-19T18:17:55.7923693+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25c36903-efad-4048-b5f9-b582fd4c3889">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa3fc82c-7d29-4214-864a-6a56da53f308" testId="fa726839-821c-7e33-da82-d2ee615c271d" testName="TestThrowOneStrike" computerName="ACER-PC" duration="00:00:00.0001790" startTime="2012-04-19T18:17:55.8003697+08:00" endTime="2012-04-19T18:17:55.8093702+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa3fc82c-7d29-4214-864a-6a56da53f308">
+    </UnitTestResult>
+  </Results>
+</TestRun>
