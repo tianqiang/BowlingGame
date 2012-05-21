@@ -1,5 +1,0 @@
-E:\学习\C++实验\实验5\Bowling\Bowling\bin\Debug\Bowling.exe
-E:\学习\C++实验\实验5\Bowling\Bowling\bin\Debug\Bowling.pdb
-E:\学习\C++实验\实验5\Bowling\Bowling\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\学习\C++实验\实验5\Bowling\Bowling\obj\x86\Debug\Bowling.exe
-E:\学习\C++实验\实验5\Bowling\Bowling\obj\x86\Debug\Bowling.pdb
